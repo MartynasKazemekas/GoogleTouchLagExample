@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20803B998656765073F6887C /* Pods_GoogleMapsTouchLagExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E03605942BF177BDAC206 /* Pods_GoogleMapsTouchLagExampleTests.framework */; };
+		642E62879026C43C4BE7A5A0 /* Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F0E83BE9FAAA57C3E6FC58 /* Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework */; };
+		CA518BFF260DD074003112C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA518BFE260DD074003112C7 /* AppDelegate.m */; };
+		CA518C05260DD074003112C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA518C04260DD074003112C7 /* ViewController.m */; };
+		CA518C08260DD074003112C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA518C06260DD074003112C7 /* Main.storyboard */; };
+		CA518C0A260DD076003112C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA518C09260DD076003112C7 /* Assets.xcassets */; };
+		CA518C0D260DD076003112C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA518C0B260DD076003112C7 /* LaunchScreen.storyboard */; };
+		CA518C10260DD076003112C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA518C0F260DD076003112C7 /* main.m */; };
+		CA518C1A260DD077003112C7 /* GoogleMapsTouchLagExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA518C19260DD077003112C7 /* GoogleMapsTouchLagExampleTests.m */; };
+		CA518C25260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA518C24260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.m */; };
+		D60E0D01020713051469C656 /* Pods_GoogleMapsTouchLagExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D5A8328135472D7A8E88B1 /* Pods_GoogleMapsTouchLagExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA518C16260DD077003112C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA518BF2260DD073003112C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA518BF9260DD073003112C7;
+			remoteInfo = GoogleMapsTouchLagExample;
+		};
+		CA518C21260DD077003112C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA518BF2260DD073003112C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA518BF9260DD073003112C7;
+			remoteInfo = GoogleMapsTouchLagExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44F0E83BE9FAAA57C3E6FC58 /* Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D5A8328135472D7A8E88B1 /* Pods_GoogleMapsTouchLagExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsTouchLagExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E236E00BF1742BD7448296 /* Pods-GoogleMapsTouchLagExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExample.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExample/Pods-GoogleMapsTouchLagExample.debug.xcconfig"; sourceTree = "<group>"; };
+		758E03605942BF177BDAC206 /* Pods_GoogleMapsTouchLagExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsTouchLagExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE619F16AF3FA0460404E9C /* Pods-GoogleMapsTouchLagExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExampleTests/Pods-GoogleMapsTouchLagExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8625298B2CFA791A86D25519 /* Pods-GoogleMapsTouchLagExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExample.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExample/Pods-GoogleMapsTouchLagExample.release.xcconfig"; sourceTree = "<group>"; };
+		99F52E2089DE0E53F3A12303 /* Pods-GoogleMapsTouchLagExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExampleTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExampleTests/Pods-GoogleMapsTouchLagExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B92148672AFFBBCEACB9EF82 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA518BFA260DD074003112C7 /* GoogleMapsTouchLagExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsTouchLagExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA518BFD260DD074003112C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA518BFE260DD074003112C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA518C03260DD074003112C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA518C04260DD074003112C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA518C07260DD074003112C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA518C09260DD076003112C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA518C0C260DD076003112C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA518C0E260DD076003112C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA518C0F260DD076003112C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA518C15260DD077003112C7 /* GoogleMapsTouchLagExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsTouchLagExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA518C19260DD077003112C7 /* GoogleMapsTouchLagExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsTouchLagExampleTests.m; sourceTree = "<group>"; };
+		CA518C1B260DD077003112C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA518C20260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsTouchLagExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA518C24260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsTouchLagExampleUITests.m; sourceTree = "<group>"; };
+		CA518C26260DD077003112C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0F2345C6650F05CB806C38 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA518BF7260DD073003112C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60E0D01020713051469C656 /* Pods_GoogleMapsTouchLagExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C12260DD077003112C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20803B998656765073F6887C /* Pods_GoogleMapsTouchLagExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C1D260DD077003112C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642E62879026C43C4BE7A5A0 /* Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1D639547AD8CB1494E8BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D5A8328135472D7A8E88B1 /* Pods_GoogleMapsTouchLagExample.framework */,
+				44F0E83BE9FAAA57C3E6FC58 /* Pods_GoogleMapsTouchLagExample_GoogleMapsTouchLagExampleUITests.framework */,
+				758E03605942BF177BDAC206 /* Pods_GoogleMapsTouchLagExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB87C1AC9FA2990344566A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E236E00BF1742BD7448296 /* Pods-GoogleMapsTouchLagExample.debug.xcconfig */,
+				8625298B2CFA791A86D25519 /* Pods-GoogleMapsTouchLagExample.release.xcconfig */,
+				B92148672AFFBBCEACB9EF82 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.debug.xcconfig */,
+				DC0F2345C6650F05CB806C38 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.release.xcconfig */,
+				7EE619F16AF3FA0460404E9C /* Pods-GoogleMapsTouchLagExampleTests.debug.xcconfig */,
+				99F52E2089DE0E53F3A12303 /* Pods-GoogleMapsTouchLagExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA518BF1260DD073003112C7 = {
+			isa = PBXGroup;
+			children = (
+				CA518BFC260DD074003112C7 /* GoogleMapsTouchLagExample */,
+				CA518C18260DD077003112C7 /* GoogleMapsTouchLagExampleTests */,
+				CA518C23260DD077003112C7 /* GoogleMapsTouchLagExampleUITests */,
+				CA518BFB260DD074003112C7 /* Products */,
+				4AB87C1AC9FA2990344566A9 /* Pods */,
+				1C1D639547AD8CB1494E8BA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA518BFB260DD074003112C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA518BFA260DD074003112C7 /* GoogleMapsTouchLagExample.app */,
+				CA518C15260DD077003112C7 /* GoogleMapsTouchLagExampleTests.xctest */,
+				CA518C20260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA518BFC260DD074003112C7 /* GoogleMapsTouchLagExample */ = {
+			isa = PBXGroup;
+			children = (
+				CA518BFD260DD074003112C7 /* AppDelegate.h */,
+				CA518BFE260DD074003112C7 /* AppDelegate.m */,
+				CA518C03260DD074003112C7 /* ViewController.h */,
+				CA518C04260DD074003112C7 /* ViewController.m */,
+				CA518C06260DD074003112C7 /* Main.storyboard */,
+				CA518C09260DD076003112C7 /* Assets.xcassets */,
+				CA518C0B260DD076003112C7 /* LaunchScreen.storyboard */,
+				CA518C0E260DD076003112C7 /* Info.plist */,
+				CA518C0F260DD076003112C7 /* main.m */,
+			);
+			path = GoogleMapsTouchLagExample;
+			sourceTree = "<group>";
+		};
+		CA518C18260DD077003112C7 /* GoogleMapsTouchLagExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA518C19260DD077003112C7 /* GoogleMapsTouchLagExampleTests.m */,
+				CA518C1B260DD077003112C7 /* Info.plist */,
+			);
+			path = GoogleMapsTouchLagExampleTests;
+			sourceTree = "<group>";
+		};
+		CA518C23260DD077003112C7 /* GoogleMapsTouchLagExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA518C24260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.m */,
+				CA518C26260DD077003112C7 /* Info.plist */,
+			);
+			path = GoogleMapsTouchLagExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA518BF9260DD073003112C7 /* GoogleMapsTouchLagExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA518C29260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExample" */;
+			buildPhases = (
+				D056CB7AE8DDBE714846CF34 /* [CP] Check Pods Manifest.lock */,
+				CA518BF6260DD073003112C7 /* Sources */,
+				CA518BF7260DD073003112C7 /* Frameworks */,
+				CA518BF8260DD073003112C7 /* Resources */,
+				772A1D48E47C4E31822EAE4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapsTouchLagExample;
+			productName = GoogleMapsTouchLagExample;
+			productReference = CA518BFA260DD074003112C7 /* GoogleMapsTouchLagExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA518C14260DD077003112C7 /* GoogleMapsTouchLagExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA518C2C260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExampleTests" */;
+			buildPhases = (
+				C9A14024F8BA6832F61BDF55 /* [CP] Check Pods Manifest.lock */,
+				CA518C11260DD077003112C7 /* Sources */,
+				CA518C12260DD077003112C7 /* Frameworks */,
+				CA518C13260DD077003112C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA518C17260DD077003112C7 /* PBXTargetDependency */,
+			);
+			name = GoogleMapsTouchLagExampleTests;
+			productName = GoogleMapsTouchLagExampleTests;
+			productReference = CA518C15260DD077003112C7 /* GoogleMapsTouchLagExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA518C1F260DD077003112C7 /* GoogleMapsTouchLagExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA518C2F260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExampleUITests" */;
+			buildPhases = (
+				A1593F4A52C2354554131365 /* [CP] Check Pods Manifest.lock */,
+				CA518C1C260DD077003112C7 /* Sources */,
+				CA518C1D260DD077003112C7 /* Frameworks */,
+				CA518C1E260DD077003112C7 /* Resources */,
+				ADBC511D367F1055B4F4C5A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA518C22260DD077003112C7 /* PBXTargetDependency */,
+			);
+			name = GoogleMapsTouchLagExampleUITests;
+			productName = GoogleMapsTouchLagExampleUITests;
+			productReference = CA518C20260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA518BF2260DD073003112C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CA518BF9260DD073003112C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CA518C14260DD077003112C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CA518BF9260DD073003112C7;
+					};
+					CA518C1F260DD077003112C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CA518BF9260DD073003112C7;
+					};
+				};
+			};
+			buildConfigurationList = CA518BF5260DD073003112C7 /* Build configuration list for PBXProject "GoogleMapsTouchLagExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA518BF1260DD073003112C7;
+			productRefGroup = CA518BFB260DD074003112C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA518BF9260DD073003112C7 /* GoogleMapsTouchLagExample */,
+				CA518C14260DD077003112C7 /* GoogleMapsTouchLagExampleTests */,
+				CA518C1F260DD077003112C7 /* GoogleMapsTouchLagExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA518BF8260DD073003112C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA518C0D260DD076003112C7 /* LaunchScreen.storyboard in Resources */,
+				CA518C0A260DD076003112C7 /* Assets.xcassets in Resources */,
+				CA518C08260DD074003112C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C13260DD077003112C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C1E260DD077003112C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772A1D48E47C4E31822EAE4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample/Pods-GoogleMapsTouchLagExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample/Pods-GoogleMapsTouchLagExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample/Pods-GoogleMapsTouchLagExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1593F4A52C2354554131365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBC511D367F1055B4F4C5A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests/Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A14024F8BA6832F61BDF55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsTouchLagExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D056CB7AE8DDBE714846CF34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsTouchLagExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA518BF6260DD073003112C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA518C05260DD074003112C7 /* ViewController.m in Sources */,
+				CA518BFF260DD074003112C7 /* AppDelegate.m in Sources */,
+				CA518C10260DD076003112C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C11260DD077003112C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA518C1A260DD077003112C7 /* GoogleMapsTouchLagExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA518C1C260DD077003112C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA518C25260DD077003112C7 /* GoogleMapsTouchLagExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA518C17260DD077003112C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA518BF9260DD073003112C7 /* GoogleMapsTouchLagExample */;
+			targetProxy = CA518C16260DD077003112C7 /* PBXContainerItemProxy */;
+		};
+		CA518C22260DD077003112C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA518BF9260DD073003112C7 /* GoogleMapsTouchLagExample */;
+			targetProxy = CA518C21260DD077003112C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA518C06260DD074003112C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA518C07260DD074003112C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA518C0B260DD076003112C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA518C0C260DD076003112C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA518C27260DD077003112C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA518C28260DD077003112C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA518C2A260DD077003112C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E236E00BF1742BD7448296 /* Pods-GoogleMapsTouchLagExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2XNERMMHS;
+				INFOPLIST_FILE = GoogleMapsTouchLagExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.lt.lt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA518C2B260DD077003112C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8625298B2CFA791A86D25519 /* Pods-GoogleMapsTouchLagExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2XNERMMHS;
+				INFOPLIST_FILE = GoogleMapsTouchLagExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.lt.lt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA518C2D260DD077003112C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE619F16AF3FA0460404E9C /* Pods-GoogleMapsTouchLagExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J352QU5FLT;
+				INFOPLIST_FILE = GoogleMapsTouchLagExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhmk.GoogleMapsTouchLagExample.GoogleMapsTouchLagExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapsTouchLagExample.app/GoogleMapsTouchLagExample";
+			};
+			name = Debug;
+		};
+		CA518C2E260DD077003112C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F52E2089DE0E53F3A12303 /* Pods-GoogleMapsTouchLagExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J352QU5FLT;
+				INFOPLIST_FILE = GoogleMapsTouchLagExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhmk.GoogleMapsTouchLagExample.GoogleMapsTouchLagExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapsTouchLagExample.app/GoogleMapsTouchLagExample";
+			};
+			name = Release;
+		};
+		CA518C30260DD077003112C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92148672AFFBBCEACB9EF82 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J352QU5FLT;
+				INFOPLIST_FILE = GoogleMapsTouchLagExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhmk.GoogleMapsTouchLagExample.GoogleMapsTouchLagExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMapsTouchLagExample;
+			};
+			name = Debug;
+		};
+		CA518C31260DD077003112C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0F2345C6650F05CB806C38 /* Pods-GoogleMapsTouchLagExample-GoogleMapsTouchLagExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J352QU5FLT;
+				INFOPLIST_FILE = GoogleMapsTouchLagExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhmk.GoogleMapsTouchLagExample.GoogleMapsTouchLagExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMapsTouchLagExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA518BF5260DD073003112C7 /* Build configuration list for PBXProject "GoogleMapsTouchLagExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA518C27260DD077003112C7 /* Debug */,
+				CA518C28260DD077003112C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA518C29260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA518C2A260DD077003112C7 /* Debug */,
+				CA518C2B260DD077003112C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA518C2C260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA518C2D260DD077003112C7 /* Debug */,
+				CA518C2E260DD077003112C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA518C2F260DD077003112C7 /* Build configuration list for PBXNativeTarget "GoogleMapsTouchLagExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA518C30260DD077003112C7 /* Debug */,
+				CA518C31260DD077003112C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA518BF2260DD073003112C7 /* Project object */;
+}
